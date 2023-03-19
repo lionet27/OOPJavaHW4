@@ -31,7 +31,15 @@ public class Main {
         for (Integer integer : gbLinkedList) {
             System.out.print(integer + " ");
         }
+        gbLinkedList.addFirst(20);
+        System.out.println("Список после добавления в начало списка 20: ");
+        for (Integer integer : gbLinkedList) {
+            System.out.print(integer + " ");
+        }
 
+
+
+      
     }
     
     
